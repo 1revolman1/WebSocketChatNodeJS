@@ -1,0 +1,59 @@
+.message-panel {
+  padding: 10px;
+  overflow-y: auto;
+  max-height: 300px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+.message-panel .text-block {
+  padding: 10px;
+  margin: 10px 0;
+  height: auto;
+  border-radius: 0.25rem;
+  background: #eaeaea;
+}
+.exampleOfContainer {
+  /* height: 25px; */
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.online-amount {
+  margin: 0;
+}
+.exampleOfContainer p {
+  background: transparent;
+  border-radius: 0.25rem;
+  border-bottom: 1px solid #ced4da;
+  margin: 0 10px;
+}
+.exampleOfContainer p:hover {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.exampleOfContainer p:first-child {
+  margin: 0;
+  margin-right: 10px;
+}
+.exampleOfContainer p:last-child {
+  margin: 0;
+  margin-left: 10px;
+}
+#style-3::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #eeeeee;
+}
+
+#style-3::-webkit-scrollbar {
+  width: 6px;
+  background-color: #eeeeee;
+}
+
+#style-3::-webkit-scrollbar-thumb {
+  background-color: #aaaaaa;
+}
+img {
+  width: 100%;
+}
